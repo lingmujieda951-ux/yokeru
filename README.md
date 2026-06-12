@@ -15,3 +15,16 @@ Python 3.x<br>
 pygame
 
 ## 進捗/Progress
+| Date | Task |
+| :--- | :--- |
+| 2026-6-13 | プレイヤーの操作と落ちてくる障害物の実装 |
+
+## 🛠️ 今後の追加予定 / Future Plans
+- [ ] 当たり判定とHPシステムの実装 / Implement collision detection and HP system
+- [ ] スコアと生存時間の実装 / Add score and survival time tracking
+- [ ] 自己ベストの保存機能の実装 / Add personal best saving functionality
+
+### 🌟 やる気が出たら追加したい機能 / Bonus Features (If motivated!)
+- [ ] 効果音とBGMの追加 / Add sound effects and BGM
+- [ ] プレイヤーや障害物の画像化 / Replace squares with custom graphics
+- [ ] ゲームオーバー画面の実装 / Add a Game Over screen
