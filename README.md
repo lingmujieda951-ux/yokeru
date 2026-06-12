@@ -1,14 +1,14 @@
 # yokeru
 Pythonの練習でちょっとしたミニゲームを作る<br>
-Creating a simple mini-game as a Python exercise
+A simple mini-game created as a Python learning exercise.
 
 ## 🎮 ゲーム概要/Game Overview
 プレイヤー（緑の四角）を左右に動かし、<br>上からランダムなサイズと速度で落ちてくる障害物（黄色の四角）を避けて、できるだけ長く生き残るゲームです。<br>
-This is a game where you move the player (the green square) left and right to avoid obstacles (the yellow squares) falling from above at random sizes and speeds, and try to survive for as long as possible.
+Control the player (green square) to dodge obstacles (yellow squares) falling from above at random sizes and speeds. Survive as long as you can!
 
 ## 🕹️ 操作方法/Instructions
-* **左矢印キー (`←`)**: 左に移動
-* **右矢印キー (`→`)**: 右に移動
+Left Arrow Key (←): Move left<br>
+Right Arrow Key (→): Move right
 
 ## 🚀 動作環境/System Requirements
 Python 3.x<br>
