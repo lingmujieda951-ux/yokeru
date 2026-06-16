@@ -2,6 +2,17 @@ import pygame
 import sys
 import random
 import time
+from pathlib import Path
+
+base_path = Path(__file__).resolve().parent
+
+file_path = base_path / "./data/PB.txt"
+
+with open(file_path, "r", encoding="utf-8") as f:
+    content_str = f.read()
+
+content = int(content_str)
+
 
 #game config
 SCREEN_WIDTH = 800
@@ -145,10 +156,24 @@ while True:
 
     #終了処理
     if HP <= 0:
-        print("ゲームオーバー！！")
         print(f"記録:{minutes:02d}:{seconds:02d}")
+
+        if sec >= content:
+            with open(file_path, "w", encoding="utf-8") as f:
+                f.write(str(sec))
+
+                minutes_pb, seconds_pb = divmod(content, 60)
+                pb_time_text = f"{minutes_pb}:{seconds_pb:02d}"
+
+                print("PB更新!")
+                print(f"前回までのPB:{pb_time_text}")
+        else:
+            minutes_pb, seconds_pb = divmod(content, 60)
+            print(f"現在のPB: {minutes_pb:02d}:{seconds_pb:02d}")
+
         pygame.quit()
         sys.exit()
         
 
     pygame.display.update()
+
