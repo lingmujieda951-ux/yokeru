@@ -23,7 +23,7 @@ pygame
 ## 🛠️ 今後の追加予定 / Future Plans
 - [x] 当たり判定とHPシステムの実装 / Implement collision detection and HP system
 - [x] スコアと生存時間の実装 / Add score and survival time tracking
-- [ ] 自己ベストの保存機能の実装 / Add personal best saving functionality
+- [x] 自己ベストの保存機能の実装 / Add personal best saving functionality
 
 ### 🌟 やる気が出たら追加したい機能 / Bonus Features (If motivated!)
 - [ ] 効果音とBGMの追加 / Add sound effects and BGM
