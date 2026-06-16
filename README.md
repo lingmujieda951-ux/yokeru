@@ -19,7 +19,7 @@ pygame
 | :--- | :--- |
 | 2026-6-13 | プレイヤーの操作と落ちてくる障害物の実装 |
 | 2026-6-14 | 当たり判定、HP、生き残った時間の実装 |
-
+| 2026-6-16 | PB機能の実装 |
 ## 🛠️ 今後の追加予定 / Future Plans
 - [x] 当たり判定とHPシステムの実装 / Implement collision detection and HP system
 - [x] スコアと生存時間の実装 / Add score and survival time tracking
