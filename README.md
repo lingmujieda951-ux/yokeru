@@ -29,3 +29,5 @@ pygame
 - [ ] 効果音とBGMの追加 / Add sound effects and BGM
 - [ ] プレイヤーや障害物の画像化 / Replace squares with custom graphics
 - [ ] ゲームオーバー画面の実装 / Add a Game Over screen
+
+![デモ](data/assets/無題.gif)
