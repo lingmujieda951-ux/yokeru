@@ -30,4 +30,4 @@ pygame
 - [ ] プレイヤーや障害物の画像化 / Replace squares with custom graphics
 - [ ] ゲームオーバー画面の実装 / Add a Game Over screen
 
-![ゲームのプレイ画面](data/assets/game.gif)
+![ゲームのプレイ画面](img/demo.gif)
